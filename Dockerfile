@@ -4,7 +4,7 @@ LABEL maintainer="Community Engineering Team <community-engg@harness.io.>"
 # Copy the Go binary into the image. The Go binary must be
 # statically compiled with CGO disabled. Use the following
 # build command:
-#
+#  added more comments
 #   CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -tags netgo
 #
 ADD go-sample-app /bin/
