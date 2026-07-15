@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ganionline143_go_pipeline_sample_1784084224475-pr-trigger-input-set
+  identifier: Build_ganionline143_go_pipeline_sample_1784084224475prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TestGanesh
+  pipeline:
+    identifier: Build_ganionline143_go_pipeline_sample_1784084224475
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
