@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ganionline143_go_pipeline_sample_1784084224475-push-trigger-input-set
+  identifier: Build_ganionline143_go_pipeline_sample_1784084224475pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TestGanesh
+  pipeline:
+    identifier: Build_ganionline143_go_pipeline_sample_1784084224475
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
